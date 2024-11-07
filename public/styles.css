@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.rooms {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.room {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.room h3 {
+    text-align: center;
+}
+
+.room ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.dialog-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dialog-content label {
+    margin-bottom: 10px;
+}
+
+.dialog-content input,
+.dialog-content select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"] {
+    background-color: #dc3545;
+}
+
+button:hover {
+    opacity: 0.8;
+}
